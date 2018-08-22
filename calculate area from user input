@@ -1,0 +1,19 @@
+<html>
+<head>
+
+</head>
+<body>
+  <script>
+ 			function calculateArea(width , height) {
+        		var area = width * height;
+            return area; }
+     var userwidth = prompt("gimme the width");
+     var userheight = prompt("gimme the height");
+     var wallOne = calculateArea(userwidth,userheight);
+      window.alert(wallOne);
+</script>
+
+
+</body>
+
+</html>
