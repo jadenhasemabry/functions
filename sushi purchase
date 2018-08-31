@@ -1,0 +1,14 @@
+var spicyAhi = {
+fishType: "ahi",
+sauce: "sriracha and mayo",
+price: 100.00,
+rice: "white",
+ounces: 8
+};
+
+var amount = prompt("amount to buy");
+var total = window.alert(amount);
+var totalOunces = amount * spicyAhi.ounces;
+window.alert("buying" + totalOunces);
+var totaldollar = amount * spicyAhi.price;
+window.alert("Your total price:" + totaldollar);
