@@ -1,0 +1,23 @@
+//ask person 1 and 2 between number 1-4
+//scold player if number is isnt 1-4 then end game
+// if player 1 and player 2 number are the same, then win
+// if else tell them and say they lose
+
+function playgame() {
+var p1 = prompt("what is your number between 1-4? Player 1");
+var p2 = math.floor(math.random()*4+1)
+
+if((p1 < 1 || p1 > 4|| p2 <1 || p2 >4)) {
+window.alert("one of you cheated, game over");
+return;
+}
+
+if (p1 === p2) {
+window.alert("you win congrats");
+}
+
+else{
+window.alert("you both lose, Player one chose" + p1 + " and player 2 chose "+ p2)
+}
+}
+playgame();
